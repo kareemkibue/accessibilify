@@ -4,4 +4,7 @@ An Accessibility JavaScript library written in Typescript, jQuery that appends a
 More documentation coming soon..
 
 # To Contribute
-Fork, Improve, Create pull-request
+Fork, Improve, Document, Create pull-request
+
+# Licence
+MIT
