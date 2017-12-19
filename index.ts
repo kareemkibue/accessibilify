@@ -1,4 +1,4 @@
-declare var $;
+declare var $:any;
 
 class Accessibilify {
     button: string;
