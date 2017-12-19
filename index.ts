@@ -1,4 +1,4 @@
-/// <reference path="./references/jquery.d.ts" />
+declare var $;
 
 class Accessibilify {
     button: string;
