@@ -1,6 +1,6 @@
 {
     "name": "accessibilify",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Accessibility patch library built using TypeScript",
     "main": "index.ts",
     "repository": "https://github.com/kareemkibue/accessibilify.git",
