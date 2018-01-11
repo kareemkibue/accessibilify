@@ -1,5 +1,9 @@
 // declare var $: any;
 
+interface IOptions {
+    roles: any
+}
+
 class Accessibilify {
     button: string;
     header: string;
