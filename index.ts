@@ -1,4 +1,4 @@
-declare var $:any;
+// declare var $: any;
 
 class Accessibilify {
     button: string;
@@ -58,6 +58,7 @@ class Accessibilify {
 
     skipNavConfig(): void {
         this.skipNav.find( 'a' ).click( () => {
+            this.skipNav.removeClass( 'slide-down' );
             $( '#content' ).focus();
         } );
 

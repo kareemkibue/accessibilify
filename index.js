@@ -1,6 +1,7 @@
 "use strict";
+// declare var $: any;
 exports.__esModule = true;
-var Accessibilify = (function () {
+var Accessibilify = /** @class */ (function () {
     function Accessibilify() {
         this.skipNav = $('#bannerSkipNav');
         this.html5RoleSet = {
@@ -46,6 +47,7 @@ var Accessibilify = (function () {
     Accessibilify.prototype.skipNavConfig = function () {
         var _this = this;
         this.skipNav.find('a').click(function () {
+            _this.skipNav.removeClass('slide-down');
             $('#content').focus();
         });
         this.skipNav.find('a').focus(function (event) {
