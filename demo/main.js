@@ -1,6 +1,6 @@
 ( function() {
 
-    console.log( accessibilify );
+    console.log( Accessibilify );
 
     /*  accessibilify.init( {
          'button': [ '.btn', 'a.print' ]

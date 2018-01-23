@@ -1,13 +1,13 @@
 {
-    "compilerOptions": {        
+    "compilerOptions": {
         "sourceMap": true,
         "noImplicitAny": false,
-        "module": "es6",
+        "module": "es2015",
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "strictNullChecks": true,
-        "target": "es5",
+        "target": "es2015",
         "lib": [
             "es2015",
             "es2017",

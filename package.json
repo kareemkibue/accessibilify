@@ -7,15 +7,15 @@
     "author": "Kareem Kibue <kareemkibue@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "npm run dev",
+        "start": "npm run dev && npm run serve",
         "build": "",
-        "dev": "node_modules/.bin/webpack-dev-server --open"
+        "dev": "node_modules/.bin/webpack",
+        "serve": "node_modules/.bin/webpack-dev-server --open"
     },
     "dependencies": {
         "jquery": "^3.2.1"
     },
     "devDependencies": {
-        "@types/jquery": "^3.2.17",
         "awesome-typescript-loader": "^3.4.1",
         "typescript": "^2.6.2",
         "webpack": "^3.10.0",

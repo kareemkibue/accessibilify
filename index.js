@@ -1,5 +1,4 @@
 "use strict";
-// declare var $: any;
 exports.__esModule = true;
 var Accessibilify = /** @class */ (function () {
     function Accessibilify() {
