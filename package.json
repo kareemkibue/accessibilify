@@ -8,6 +8,7 @@
     "license": "MIT",
     "scripts": {
         "start": "npm run dev",
+        "build": "",
         "dev": "node_modules/.bin/webpack-dev-server --open"
     },
     "dependencies": {

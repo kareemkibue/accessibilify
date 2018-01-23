@@ -42,7 +42,7 @@ class Accessibilify {
     }
 
     srTextReplace(): void {
-        $( '[data-sr-text]' ).each( function() {
+        $( '[data-sr-text] ' ).each( function() {
             let srText = $( this ).data( 'sr-text' );
 
             $( this ).find( 'span' ).attr( {
