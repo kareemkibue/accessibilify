@@ -1,0 +1,48 @@
+.body {
+    background: #fff;
+    font-size: 18px;
+}
+
+.page-header {
+    background: #f0f0f0;
+    overflow: hidden;
+}
+
+.page-header .logo {
+    margin: 15px;
+    display: inline-block;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    float: left;
+}
+
+.main-nav ul li a {
+    display: block;
+    padding: 15px;
+}
+
+.main-nav ul li a:hover {
+    text-decoration: none;
+    background: #f8f8f8;
+}
+
+.page-content {
+    min-height: calc( 100vh - 110px);
+}
+
+.page-footer {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 15px;
+}

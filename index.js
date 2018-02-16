@@ -1,5 +1,4 @@
 "use strict";
-// declare var $: any;
 exports.__esModule = true;
 var Accessibilify = /** @class */ (function () {
     function Accessibilify() {
@@ -30,7 +29,7 @@ var Accessibilify = /** @class */ (function () {
         }
     };
     Accessibilify.prototype.srTextReplace = function () {
-        $('[data-sr-text]').each(function () {
+        $('[data-sr-text] ').each(function () {
             var srText = $(this).data('sr-text');
             $(this).find('span').attr({
                 'aria-hidden': 'true'
