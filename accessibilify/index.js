@@ -1,5 +1,8 @@
 "use strict";
 exports.__esModule = true;
+/* interface IOptions {
+    roles: any
+} */
 var Accessibilify = /** @class */ (function () {
     function Accessibilify() {
         this.skipNav = $('#bannerSkipNav');

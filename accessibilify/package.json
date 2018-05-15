@@ -1,24 +1,24 @@
 {
-    "name": "accessibilify",
-    "version": "0.1.4",
-    "description": "Accessibility patch library built using TypeScript",
-    "main": "index.ts",
-    "repository": "https://github.com/kareemkibue/accessibilify.git",
-    "author": "Kareem Kibue <kareemkibue@gmail.com>",
-    "license": "MIT",
-    "scripts": {
-        "start": "npm run dev && npm run serve",
-        "build": "",
-        "dev": "node_modules/.bin/webpack",
-        "serve": "node_modules/.bin/webpack-dev-server --open"
-    },
-    "dependencies": {
-        "jquery": "^3.2.1"
-    },
-    "devDependencies": {
-        "awesome-typescript-loader": "^3.4.1",
-        "typescript": "^2.6.2",
-        "webpack": "^3.10.0",
-        "webpack-dev-server": "^2.11.1"
-    }
+	"name": "accessibilify",
+	"version": "0.1.5",
+	"description": "Accessibility patch library built using TypeScript",
+	"main": "index.ts",
+	"repository": "https://github.com/kareemkibue/accessibilify.git",
+	"author": "Kareem Kibue <kareemkibue@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "npm run dev && npm run serve",
+		"build": "",
+		"dev": "node_modules/.bin/webpack",
+		"serve": "node_modules/.bin/webpack-dev-server --open"
+	},
+	"dependencies": {
+		"jquery": "^3.2.1"
+	},
+	"devDependencies": {
+		"awesome-typescript-loader": "^3.4.1",
+		"typescript": "^2.6.2",
+		"webpack": "^3.10.0",
+		"webpack-dev-server": "^2.11.1"
+	}
 }

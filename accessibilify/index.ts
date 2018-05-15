@@ -1,8 +1,8 @@
 declare var $: any;
 
-interface IOptions {
+/* interface IOptions {
     roles: any
-}
+} */
 
 class Accessibilify {
     button: string;
